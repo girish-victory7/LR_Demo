@@ -1,0 +1,68 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Petstore_Search_Category_InProgress_V1.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2021.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Click_Category=Click_Category.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Click_Category=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Click_Category=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Click_Category=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Click_Category=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="Petstore_01_Launch__*delimiter*__Petstore_02_Enter_The_Store__*delimiter*__Petstore_03_Clk_SignIn_Lnk__*delimiter*__Petstore_04_Clk_Login_Btn__*delimiter*__Petstore_06_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+Petstore_01_Launch=
+Petstore_02_Enter_The_Store=
+Petstore_03_Clk_SignIn_Lnk=
+Petstore_04_Clk_Login_Btn=
+Petstore_06_Logout=
+[Rendezvous]
+Petstore_06_Logout=
